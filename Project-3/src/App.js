@@ -1,13 +1,14 @@
-
+import { movieData } from './data/movies';
 import './App.css';
 
 function App() {
+  console.log('data>>', movieData)
   return (
-    <div >
-      <header >
-          Hello it is working
-      </header>
-    </div>
+    <header>
+      <div>
+        Hello it is working
+      </div>
+    </header>
   );
 }
 
