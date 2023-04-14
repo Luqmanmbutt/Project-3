@@ -1,15 +1,15 @@
 import { movieData } from './data/movies';
 import './App.css';
+import HomePage from './components/HomePage';
 
 function App() {
-  console.log('data>>', movieData)
   return (
-    <header>
-      <div>
-        Hello it is working
+      <div className='home-page'>
+        <HomePage />
       </div>
-    </header>
-  );
-}
-
-export default App;
+    );
+  }
+  
+  export default App;
+  
+  // console.log('data>>', movieData)

@@ -2,8 +2,18 @@ import React from 'react'
 
 
 const HomePage = () => {
-    return
+  return (
+  <>
+
+    <div className='home-page'> 
+      <h1> hello </h1>
+    </div>
+    </>
+  )
+
+  
+
 
 }
 
-export default HomePage
+export default HomePage;
