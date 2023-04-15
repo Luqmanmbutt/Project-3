@@ -3,4 +3,16 @@
   width: 99.7%;
   background-color:blueviolet;
   height: 870px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  border: 2px solid black;
+
+}
+
+.middle-title {
+  border: 2px solid black;
+  
 }

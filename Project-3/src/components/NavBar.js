@@ -1,7 +1,10 @@
 import React from 'react'
 
-const NavBar = () => {
+
+
+function NavBar() {
   return (
+    <nav>
       <ul>
         <li>
           Home
@@ -10,7 +13,14 @@ const NavBar = () => {
           Movies
         </li>
       </ul>
+    </nav>
   );
 }
+
+
+
+
+
+
 
 export default NavBar;

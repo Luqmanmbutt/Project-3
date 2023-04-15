@@ -6,14 +6,19 @@ const HomePage = () => {
   <>
 
     <div className='home-page'> 
-      <NavBar />
+      <div className='nav-bar'> 
+       <NavBar />
+      </div>
+      <div className='middle-title'>
+        HOME OF MOVIES
+      </div>
     </div>
   </>
   )
+}
 
-  
-
+const MoviesPage = () => {
 
 }
 
-export default HomePage;
+export default HomePage
