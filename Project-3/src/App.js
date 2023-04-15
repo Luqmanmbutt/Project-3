@@ -1,13 +1,13 @@
-import { movieData } from './data/movies';
 import './App.css';
 import HomePage from './components/HomePage';
-import SearchBar from './components/SearchBar'
+import NavBar from './components/NavBar'
+
 
 function App() {
   return (
       <div className='home-page'>
+        <NavBar />
         <HomePage />
-        <SearchBar />
       </div>
     );
   }

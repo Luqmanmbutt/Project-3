@@ -7,7 +7,6 @@ const HomePage = () => {
 
     <div className='home-page'> 
       <div className='nav-bar'> 
-       <NavBar />
       </div>
       <div className='middle-title'>
         HOME OF MOVIES
@@ -17,8 +16,6 @@ const HomePage = () => {
   )
 }
 
-const MoviesPage = () => {
 
-}
 
 export default HomePage
