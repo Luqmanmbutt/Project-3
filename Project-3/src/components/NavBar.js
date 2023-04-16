@@ -7,18 +7,22 @@ const NavBar = () => {
 
   const navigate = useNavigate();
 
-  const handleClick = () => {
+  const home = () => {
     navigate("/")
+  }
+
+  const movies = () => {
+    navigate("movies")
   }
   
 
 
   return (
     <div className='nav-bar'>
-      <button type="button" onClick={handleClick}>
+      <button type="button" onClick={home}>
         Home
       </button>
-      <button>
+      <button type="button" onClick={movies}>
         movies
       </button>
     </div>

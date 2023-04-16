@@ -1,14 +1,20 @@
 import React from 'react'
-import NavBar from './NavBar';
+import { useNavigate } from "react-router-dom"
+
 
 const HomePage = () => {
 
-  
+  const navigate = useNavigate();
+
+  const movies = () => {
+    navigate("movies")
+  }
+
   return (
   <>
 
     <div className='home-page'> 
-      <button>
+      <button type="button" onClick={movies}>
         HOME OF MOVIES
       </button>
     </div>
