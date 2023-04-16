@@ -5,13 +5,14 @@ import { useNavigate } from "react-router-dom"
 
 const NavBar = () => {
 
-  const home = () => {
-    let navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleClick = () => {
-      Navigate("/")
-    }
+  const handleClick = () => {
+    navigate("/")
   }
+  
+
+
   return (
     <div className='nav-bar'>
       <button type="button" onClick={handleClick}>
