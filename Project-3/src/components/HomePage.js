@@ -6,9 +6,9 @@ const HomePage = () => {
   
   return (
   <>
-    
+
     <div className='home-page'> 
-      <button className='middle-title'>
+      <button>
         HOME OF MOVIES
       </button>
     </div>

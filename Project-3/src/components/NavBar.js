@@ -1,21 +1,25 @@
 import React from 'react'
-
+import { useNavigate } from "react-router-dom"
 
 
 
 const NavBar = () => {
 
+  const home = () => {
+    let navigate = useNavigate();
 
+    const handleClick = () => {
+      Navigate("/")
+    }
+  }
   return (
     <div className='nav-bar'>
-      <header>
-        <button className='home-btn'>
-          Home
-        </button>
-        <button>
-          movies 
+      <button type="button" onClick={handleClick}>
+        Home
       </button>
-    </header>
+      <button>
+        movies
+      </button>
     </div>
   );
 }
