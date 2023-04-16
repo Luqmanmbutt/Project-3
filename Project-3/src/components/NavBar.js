@@ -2,18 +2,17 @@ import React from 'react'
 
 
 
+
 function NavBar() {
   return (
-    <nav>
-      <ul>
-        <li>
+    <header>
+      <button className='home-btn'>
           Home
-        </li>
-        <li>
-          Movies
-        </li>
-      </ul>
-    </nav>
+      </button>
+      <button>
+          movies 
+      </button>
+    </header>
   );
 }
 

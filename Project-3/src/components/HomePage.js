@@ -6,11 +6,9 @@ const HomePage = () => {
   <>
 
     <div className='home-page'> 
-      <div className='nav-bar'> 
-      </div>
-      <div className='middle-title'>
+      <button className='middle-title'>
         HOME OF MOVIES
-      </div>
+      </button>
     </div>
   </>
   )

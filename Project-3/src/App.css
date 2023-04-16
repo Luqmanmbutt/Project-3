@@ -9,8 +9,9 @@
 
 .nav-bar {
   border: 2px solid black;
-  
+  flex-direction: row;
 }
+
 
 .middle-title {
   border: 2px solid black;
