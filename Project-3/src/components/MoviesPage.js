@@ -1,11 +1,16 @@
 import React from 'react'
 
 
+
+
+
+
 const MoviesPage = () => {
   return (
-
     <div>
-      Movies page 
+      <button>
+        Movies page 
+      </button>
     </div>
   ) 
 }

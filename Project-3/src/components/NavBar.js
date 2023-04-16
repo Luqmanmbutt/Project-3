@@ -3,16 +3,20 @@ import React from 'react'
 
 
 
-function NavBar() {
+const NavBar = () => {
+
+
   return (
-    <header>
-      <button className='home-btn'>
+    <div className='nav-bar'>
+      <header>
+        <button className='home-btn'>
           Home
-      </button>
-      <button>
+        </button>
+        <button>
           movies 
       </button>
     </header>
+    </div>
   );
 }
 
