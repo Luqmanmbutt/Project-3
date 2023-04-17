@@ -14,9 +14,11 @@ const HomePage = () => {
   <>
 
     <div className='home-page'> 
-      <button type="button" onClick={movies}>
-        HOME OF MOVIES
-      </button>
+      <div> 
+        <button type="button" onClick={movies}>
+          HOME OF MOVIES
+        </button>
+      </div>
     </div>
   </>
   )

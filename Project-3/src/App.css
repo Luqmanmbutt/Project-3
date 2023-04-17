@@ -1,4 +1,5 @@
 .home-page {
+  
   border: 2px solid black;
   width: 99.7%;
   background-color:blueviolet;
@@ -6,10 +7,24 @@
   display: flex;
   flex-direction: column;
 }
+.movies-page {
+
+  border: 2px solid black;
+  width: 99.7%;
+  background-color:blueviolet;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
 
 .nav-bar {
+
   border: 2px solid black;
   flex-direction: row;
+  width: 99.7%;
+
 }
 
 
@@ -17,3 +32,27 @@
   border: 2px solid black;
 
 }
+
+.card-container {
+
+  border: 2px solid black;
+  height: 613px;
+  width: 99.7%;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
+
+}
+
+.movie-card {
+
+  border: 2px solid black;
+  padding: 40px;
+  width: 13%;
+  top: 80px;
+  right: 500px;
+  height: 188px;
+}
+
