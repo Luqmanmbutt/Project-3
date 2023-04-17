@@ -41,8 +41,7 @@
   margin-top: 170px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  padding: 50px;
+
 
 }
 
@@ -54,5 +53,12 @@
   top: 80px;
   right: 500px;
   height: 188px;
+  display: flex;
+  
 }
 
+.movie-title {
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+}

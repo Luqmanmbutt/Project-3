@@ -7,42 +7,37 @@ const MoviesPage = () => {
   // console.log("single movie", movieData.movies[2].movieTitle)
   // console.log("movies data",movieData)
 
+
   return (
 
 
-    
+
     <div className='movies-page'>
-      <div className='card-container'>
         <div className='movie-card'>
-          
-          {movieData.movies.map(info =>{
+          {movieData.movies.map (info => {
+
             return (
               <>
-              <p
-              key={info.movieData}>
-                {info.movieData}
-              </p>
+                <div className='movie-title'>
+                  {/* {info.movieTitle} */}
+                </div>
+                {/* <div className='movie-genre'> */}
+                  {/* {info.genre} */}
+                {/* </div> */}
+                {/* <div className='movie-release'> */}
+                  {/* {info.releasedDate} */}
+                {/* </div> */}
+                {/* <div className='movie-rating'> */}
+                  {/* {info.rating} */}
+                {/* </div> */}
+                {/* <div className='movie-sumarry'> */}
+                  {/* {info.summary} */}
+                {/* </div> */}
               </>
             )
           })}
         </div>
-        <div className='movie-card'>
-          hello 2
-        </div>
-        <div className='movie-card'>
-          hello 3
-        </div>
-        <div className='movie-card'>
-          hello 4
-        </div>
-        <div className='movie-card'>
-          hello 5
-        </div>
-        <div className='movie-card'>
-          hello 6
-        </div>
       </div>
-    </div>
   )
 }
 
