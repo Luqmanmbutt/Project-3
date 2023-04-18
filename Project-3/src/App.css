@@ -15,6 +15,8 @@
   height: 870px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 300px;
   
 }
 
@@ -24,9 +26,49 @@
   border: 2px solid black;
   flex-direction: row;
   width: 99.7%;
+  height: 100px;
+  display: flex;
+  
+
+
+}
+.home-btn,
+.movies-btn {
+  font-size: 50px;
+  border: 2px solid black;
+  width: 18vh;
+  position: relative;
+  left: 10vh;
+  cursor: pointer;
 
 }
 
+/* .movies-btn {
+  border: 2px solid black;
+  font-size: 50px;
+  width: 18vh;
+  position: relative;
+  left: 20vh;
+  cursor: pointer;
+} */
+.home-display {
+  border: 2px solid black;
+  width: 99.7%;
+  height: 87vh;
+  display: flex;
+  background-image: url(./assests/home-display.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.H-O-M-btn {
+  border: 2px solid black;
+  font-size: 50px;
+  position: relative;
+  left: 500px;
+  bottom: -300px ;
+  height: 100px;
+}
 
 .middle-title {
   border: 2px solid black;
@@ -40,7 +82,7 @@
   width: 99.7%;
   margin-top: 170px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 
 }
@@ -54,11 +96,46 @@
   right: 500px;
   height: 188px;
   display: flex;
+  flex-direction: column;
   
+
 }
 
-.movie-title {
+.movie-picture {
   border: 2px solid black;
   height: 100px;
   width: 100%;
+}
+.movie-summary {
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+}
+.movie-info{
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+  display: flex;
+
+}
+.movie-name {
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+}
+.movie-year {
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+}
+.movie-rating {
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .home-display {
+    background-color: red;
+  }
 }

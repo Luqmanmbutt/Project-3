@@ -19,12 +19,12 @@ const NavBar = () => {
 
   return (
     <div className='nav-bar'>
-      <button type="button" onClick={home}>
+      <div className='home-btn' onClick={home}>
         Home
-      </button>
-      <button type="button" onClick={movies}>
-        movies
-      </button>
+      </div>
+      <div className='movies-btn' onClick={movies}>
+        Movies
+      </div>
     </div>
   );
 }
