@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useState }  from 'react'
 import movies, { movieData } from "../data/movies"
 
 
 const MoviesPage = () => {
 
-  // console.log("single movie", movieData.movies[2].movieTitle)
-  // console.log("movies data",movieData)
+  const [searchResult, setSearchResult] =  useState("") 
 
+const searchOnChange = (event) => {
+  setSearchResult(event.target.value)
+  console.log("searchResult", searchResult)
+}
 
   return (
 
-
-
+    <>
+    <div className='search-bar'>
+        <input type="text" onChange={searchOnChange} placeholder="Search..."></input>
+    </div>
     <div className='movies-page'>
       <div className='movie-card'>
         <div className='movie-picture'>
@@ -33,6 +38,7 @@ const MoviesPage = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
@@ -42,23 +48,27 @@ export default MoviesPage;
 
 
 
-// {movieData.movies.map (info => {
+// div className='movies-page'>
+//         <div className='movie-card'>
+//           {movieData.movies.map (info => {
 
-//   return (
-//     <>
-//       <div className='movie-title'>
-//         {/* {info.movieTitle} */}
-//       </div>
-//       {/* <div className='movie-genre'> */}
-//         {/* {info.genre} */}
-//       {/* </div> */}
-//       {/* <div className='movie-release'> */}
-//         {/* {info.releasedDate} */}
-//       {/* </div> */}
-//       {/* <div className='movie-rating'> */}
-//         {/* {info.rating} */}
-//       {/* </div> */}
-//       {/* <div className='movie-sumarry'> */}
-//         {/* {info.summary} */}
-//       {/* </div> */}
-//     </>
+//             return (
+//               <>
+//                 <div className='movie-title'>
+//                   {/* {info.movieTitle} */}
+//                 </div>
+//                 {/* <div className='movie-genre'> */}
+//                   {/* {info.genre} */}
+//                 {/* </div> */}
+//                 {/* <div className='movie-release'> */}
+//                   {/* {info.releasedDate} */}
+//                 {/* </div> */}
+//                 {/* <div className='movie-rating'> */}
+//                   {/* {info.rating} */}
+//                 {/* </div> */}
+//                 {/* <div className='movie-sumarry'> */}
+//                   {/* {info.summary} */}
+//                 {/* </div> */}
+//               </>
+//             )
+//           })}
