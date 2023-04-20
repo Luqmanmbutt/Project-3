@@ -8,7 +8,6 @@ const MoviesPage = () => {
 
 const searchOnChange = (event) => {
   setSearchResult(event.target.value)
-  console.log("searchResult", searchResult)
 }
 
   return (
@@ -20,7 +19,7 @@ const searchOnChange = (event) => {
     <div className='movies-page'>
       <div className='movie-card'>
         <div className='movie-picture'>
-          Picture
+            Picture
         </div>
         <div className='movie-info'>
           <div className='movie-name'>
@@ -34,7 +33,7 @@ const searchOnChange = (event) => {
           </div>
         </div>
         <div className='movie-summary'>
-          luqman is the best person to go and ask which movie is he best
+            luqman is the best person to go and ask which movie is he best
         </div>
       </div>
     </div>
