@@ -4,7 +4,8 @@ export const movieData = {
       "movieTitle": "The Dark Knight",
       "genre": [
         "Action",
-        "Crime"
+        "Crime",
+        
       ],
       "releasedDate": 1972,
       "rating": 9.0,
@@ -29,7 +30,7 @@ export const movieData = {
       ],
       "releasedDate": 2010,
       "rating": 8.8,
-      "sumarry": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+      "summary": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
     },
     {
       "movieTitle": "Fightclub",

@@ -10,6 +10,10 @@ const HomePage = () => {
     navigate("movies")
   }
 
+  const handleClick = (event) => {
+    console.log(event);
+  }
+
   return (
   <>
     <div>
@@ -17,12 +21,13 @@ const HomePage = () => {
         <div className='H-O-M-btn' onClick={movies}>
           HOME OF MOVIES
         </div>
+        <div>
+        <button onClick={handleClick}>Click me</button>
+        </div>
       </div>
     </div> 
   </>
   )
 }
-
-
 
 export default HomePage
