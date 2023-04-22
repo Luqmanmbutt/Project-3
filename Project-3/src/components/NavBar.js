@@ -15,6 +15,9 @@ const NavBar = () => {
     navigate("movies")
   }
   
+  const form = () => {
+    navigate("form")
+  }
 
 
   return (
@@ -24,6 +27,9 @@ const NavBar = () => {
       </div>
       <div className='movies-btn' onClick={movies}>
         Movies
+      </div>
+      <div className='register-btn' onClick={form}>
+        Sign In
       </div>
     </div>
   );

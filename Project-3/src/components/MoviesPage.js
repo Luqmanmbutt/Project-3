@@ -4,6 +4,11 @@ import movies, { movieData } from "../data/movies"
 
 const MoviesPage = () => {
 
+
+const [filter, setFilter] = useState({})
+
+
+
   const [searchResult, setSearchResult] = useState("")
 
   const searchOnChange = (event) => {
