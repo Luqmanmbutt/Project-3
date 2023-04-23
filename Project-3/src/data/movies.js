@@ -9,7 +9,8 @@ export const movieData = {
       ],
       "releasedDate": 1972,
       "rating": 9.0,
-      "summary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+      "summary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "img": "../public/assets/dark-knight.png"
     },
     {
       "movieTitle": "The God Father",

@@ -29,6 +29,7 @@ const MoviesPage = () => {
             <>
               <div className='movie-card'>
                 <div className='movie-picture'>
+                  <img src={info.img}></img>
                 </div>
                 <div className='movie-name'>
                   {info.movieTitle}
