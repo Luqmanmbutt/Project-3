@@ -9,7 +9,7 @@ const Form = () => {
       <div className='register'>
         <div className='top- title'>
           <h2>Sign In</h2>
-
+          <h4>Please type your Email and Password to Log In</h4>
           <form id="form" className='main-container' >
             <input type="text" placeholder="username"></input>
             <input type="text" placeholder="password"></input>
