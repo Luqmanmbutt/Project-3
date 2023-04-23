@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+body {
+  background-color:  rgb(36, 11, 75);
+}
 * {  
   margin: 0;
   padding: 0;
@@ -21,7 +24,7 @@ h2 {
 h4 {
   position: relative;
   left: 65px;
-  color: #fff;
+  color: #ffffff52;
 }
 .home-page {
   
@@ -36,7 +39,7 @@ h4 {
 
   border: 2px solid black;
   width: 99.7%;
-  background-color: rgb(27, 4, 64);
+  background-color: rgb(36, 11, 75);
   height: 870px;
   display: flex;
   flex-direction: row;
@@ -55,7 +58,7 @@ h4 {
   display: flex;
   height: fit-content;
   display: inline-flex;
-  background-color: rgba(0, 0, 0, .4);
+  background-color:rgb(36, 11, 75);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);  
   align-items: center;
@@ -76,7 +79,7 @@ input[type=text] {
   height: 51vw;
   display: flex;
   border-radius: 5px;
-  background-color: rgb(27, 4, 64);
+  background-color: rgb(36, 11, 75);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,9 +101,9 @@ input[type=text] {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
-  border: 3px solid #920000;
+  border: 5px solid #5e5e5e;
   background: #fff;
-  color: #080062;
+  color: rgb(36, 11, 75);
   border-radius: 40px;
   cursor: pointer;
   
@@ -119,7 +122,7 @@ input[type=text] {
   position: relative;
   left: 10vh;
   cursor: pointer;
-  color: rgb(27, 4, 64);
+  color: rgb(255, 255, 255);
 
 }
 
@@ -167,6 +170,8 @@ input[type=text] {
   border: 2px solid black;
   width: 14%;
   height: 445px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .movie-picture {
