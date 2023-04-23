@@ -43,6 +43,7 @@ h4 {
   height: 870px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
   top: 15px;
   

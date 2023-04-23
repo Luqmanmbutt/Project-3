@@ -5,7 +5,7 @@ import movies, { movieData } from "../data/movies"
 const MoviesPage = () => {
 
 
-const [filter, setFilter] = useState({})
+  const [filter, setFilter] = useState({})
 
 
 
@@ -23,11 +23,11 @@ const [filter, setFilter] = useState({})
         <input type="text" onChange={searchOnChange} placeholder="Search..."></input>
       </div>
       <div className='movies-page'>
-        <div className='movie-card'>
-          {movieData.movies.map(info => {
+        {movieData.movies.map(info => {
 
-            return (
-              <>
+          return (
+            <>
+              <div className='movie-card'>
                 <div className='movie-picture'>
                 </div>
                 <div className='movie-name'>
@@ -45,10 +45,11 @@ const [filter, setFilter] = useState({})
                 <div className='movie-summary'>
                   {info.summary}
                 </div>
-              </>
-            )
-          })}
-        </div>
+              </div>
+
+            </>
+          )
+        })}
       </div>
     </>
   )
