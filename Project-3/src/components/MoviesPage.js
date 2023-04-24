@@ -4,11 +4,13 @@ import movies, { movieData } from "../data/movies"
 
 const MoviesPage = () => {
 
-const [searchResult, setSearchResult] = useState("")
 const [searchFilterArray, setSearchFilterArray] = useState([])
 
 
-
+  /**
+   * search on change filters through movies array and retruns the name of the movie title against the keys users are putting in the input 
+   * @param {*} event is the key press in the input
+   */
   const searchOnChange = (event) => {
     const filteredArray = movieData.movies.filter( name => {
       return name.movieTitle.toLowerCase().includes(event.target.value)
@@ -25,11 +27,10 @@ const [searchFilterArray, setSearchFilterArray] = useState([])
         <input type="text" onChange={searchOnChange} placeholder="Search..."></input>
       </div>
       <div className='movies-page'>
-        {movieData.movies.map(info => {
-
+        {((searchFilterArray.length > 0) ? searchFilterArray : movieData.movies).map(info => {
           return (
             <>
-              <div className='movie-card'>
+              <div key={info} className='movie-card'>
                 <div className='movie-picture'>
                   <img src={info.imagepath} className='poster-img' ></img>
                 </div>
