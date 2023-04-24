@@ -4,17 +4,19 @@ import movies, { movieData } from "../data/movies"
 
 const MoviesPage = () => {
 
+const [searchResult, setSearchResult] = useState("")
+const [searchFilterArray, setSearchFilterArray] = useState([])
 
-  // const [filter, setFilter] = useState({})
 
-
-
-  const [searchResult, setSearchResult] = useState("")
 
   const searchOnChange = (event) => {
-    setSearchResult(event.target.value)
-    console.log("searchResult", searchResult)
+    const filteredArray = movieData.movies.filter( name => {
+      return name.movieTitle.toLowerCase().includes(event.target.value)
+    })
+
+    setSearchFilterArray(filteredArray)
   }
+
 
   return (
 
