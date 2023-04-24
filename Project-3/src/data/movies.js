@@ -10,7 +10,7 @@ export const movieData = {
       "releasedDate": 1972,
       "rating": 9.0,
       "summary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-      "img": "../public/assets/dark-knight.png"
+      "imagepath": "../assets/darkknight.png"
     },
     {
       "movieTitle": "The God Father",
@@ -20,7 +20,8 @@ export const movieData = {
       ],
       "releasedDate": 2008,
       "rating": 9.2,
-      "summary": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
+      "summary": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+      "imagepath": "../assets/godfather.png"
     },
     {
       "movieTitle": "Inception",
@@ -31,7 +32,9 @@ export const movieData = {
       ],
       "releasedDate": 2010,
       "rating": 8.8,
-      "summary": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+      "summary": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "imagepath": "../assets/inception.png"
+
     },
     {
       "movieTitle": "Fightclub",
@@ -40,7 +43,9 @@ export const movieData = {
       ],
       "releasedDate": 1999,
       "rating": 8.8,
-      "summary": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
+      "summary": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+      "imagepath": "../assets/fightclub.png"
+
     },
     {
       "movieTitle": "Pulp Fiction",
@@ -50,7 +55,9 @@ export const movieData = {
       ],
       "releasedDate": 1994,
       "rating": 8.9,
-      "summary": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+      "summary": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "imagepath": "../assets/pulpfiction.png"
+
     },
     {
       "movieTitle": "The Matrix",
@@ -60,7 +67,9 @@ export const movieData = {
       ],
       "releasedDate": 1999,
       "rating": 8.7,
-      "summary": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+      "summary": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "imagepath": "../assets/matrix.png"
+
     },
     {
       "movieTitle": "Interstellar",
@@ -71,7 +80,9 @@ export const movieData = {
       ],
       "releasedDate": 2014,
       "rating": 8.6,
-      "summary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+      "summary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "imagepath": "../assets/intersteller.png"
+
     },
     {
       "movieTitle": "Gladiator",
@@ -82,7 +93,9 @@ export const movieData = {
       ],
       "releasedDate": 2000,
       "rating": 8.5,
-      "summary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+      "summary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "imagepath": "../assets/gladiator.png"
+
     },
     {
       "movieTitle": "Shutter Island",
@@ -92,7 +105,8 @@ export const movieData = {
       ],
       "releasedDate": 2010,
       "rating": 8.2,
-      "summary": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane."
+      "summary": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+      "imagepath": "../assets/shutterisland.png"
     },
     {
       "movieTitle": "The Departed",
@@ -103,7 +117,8 @@ export const movieData = {
       ],
       "releasedDate": 2006,
       "rating": 8.5,
-      "summary": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
+      "summary": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "imagepath": "../assets/thedeparted.png"
     },
     {
       "movieTitle": "Joker",
@@ -114,7 +129,8 @@ export const movieData = {
       ],
       "releasedDate": 2019,
       "rating": 8.4,
-      "summary": "The rise of Arthur Fleck, from aspiring stand-up comedian and pariah to Gotham's clown prince and leader of the revolution."
+      "summary": "The rise of Arthur Fleck, from aspiring stand-up comedian and pariah to Gotham's clown prince and leader of the revolution.",
+      "imagepath": "../assets/joker.png"
     },
     {
       "movieTitle": "Back to the Future",
@@ -125,7 +141,8 @@ export const movieData = {
       ],
       "releasedDate": 1985,
       "rating": 8.5,
-      "summary": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown."
+      "summary": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+      "imagepath": "../assets/bttf.png"
     },
     {
       "movieTitle": "GoodFellas",
@@ -136,7 +153,8 @@ export const movieData = {
       ],
       "releasedDate": 1990,
       "rating": 8.7,
-      "summary": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+      "summary": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+      "imagepath": "../assets/goodfellas.png"
     },
     {
       "movieTitle": "The Lion King",
@@ -147,7 +165,8 @@ export const movieData = {
       ],
       "releasedDate": 1994,
       "rating": 8.5,
-      "summary": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+      "summary": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+      "imagepath": "../assets/lionking.png"
     },
     {
       "movieTitle": "Up",
@@ -158,7 +177,8 @@ export const movieData = {
       ],
       "releasedDate": 2009,
       "rating": 8.3,
-      "summary": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway."
+      "summary": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+      "imagepath": "../assets/up.png"
     },
     {
       "movieTitle": "Braveheart",
@@ -169,7 +189,8 @@ export const movieData = {
       ],
       "releasedDate": 1995,
       "rating": 8.4,
-      "summary": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England."
+      "summary": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
+      "imagepath": "../assets/braveheart.png"
     },
     {
       "movieTitle": "Toy Story",
@@ -180,7 +201,8 @@ export const movieData = {
       ],
       "releasedDate": 1995,
       "rating": 8.3,
-      "summary": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom."
+      "summary": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
+      "imagepath": "../assets/toystory.png"
     },
     {
       "movieTitle": "Jurassic Park",
@@ -191,7 +213,8 @@ export const movieData = {
       ],
       "releasedDate": 1993,
       "rating": 8.2,
-      "summary": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+      "summary": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+      "imagepath": "../assets/jurassicpark.png"
     },
     {
       "movieTitle": "Die Hard",
@@ -201,17 +224,19 @@ export const movieData = {
       ],
       "releasedDate": 1988,
       "rating": 8.2,
-      "summary": "A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles."
+      "summary": "A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
+      "imagepath": "../assets/diehard.png"
     },
     {
-      "movieTitle": "The Terminal",
+      "movieTitle": "The Terminator",
       "genre": [
         "Action",
         "Sci-FI"
       ],
       "releasedDate": 1984,
       "rating": 8.1,
-      "summary": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation."
+      "summary": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.",
+      "imagepath": "../assets/terminator.png"
     },
     {
       "movieTitle": "Parasite",
@@ -221,7 +246,8 @@ export const movieData = {
       ],
       "releasedDate": 2019,
       "rating": 8.5,
-      "summary": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+      "summary": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "imagepath": "../assets/parasite.png"
     },
     {
       "movieTitle": "Blade Runner",
@@ -232,7 +258,8 @@ export const movieData = {
       ],
       "releasedDate": 1982,
       "rating": 8.1,
-      "summary": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator."
+      "summary": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
+      "imagepath": "../assets/bladerunner.png"
     },
     {
       "movieTitle": "Logan",
@@ -243,7 +270,8 @@ export const movieData = {
       ],
       "releasedDate": 2017,
       "rating": 8.1,
-      "summary": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
+      "summary": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+      "imagepath": "../assets/logan.png"
     },
     {
       "movieTitle": "The Incredibles",
@@ -254,7 +282,8 @@ export const movieData = {
       ],
       "releasedDate": 2004,
       "rating": 8.0,
-      "summary": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world."
+      "summary": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
+      "imagepath": "../assets/incredibles.png"
     },
     {
       "movieTitle": "Jaws",
@@ -264,7 +293,8 @@ export const movieData = {
       ],
       "releasedDate": 1975,
       "rating": 8.1,
-      "summary": "When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down."
+      "summary": "When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
+      "imagepath": "../assets/jaws.png"
     },
     {
       "movieTitle": "Ther Wolf of Wall Street",
@@ -275,7 +305,8 @@ export const movieData = {
       ],
       "releasedDate": 2013,
       "rating": 8.2,
-      "summary": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
+      "summary": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+      "imagepath": "../assets/wows.png"
     },
     {
       "movieTitle": "Finding Nemo",
@@ -286,10 +317,11 @@ export const movieData = {
       ],
       "releasedDate": 2003,
       "rating": 8.2,
-      "summary": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
+      "summary": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+      "imagepath": "../assets/nemo.png"
     },
     {
-      "movieTitle": "Harry Potter and the Philosopher's Stone",
+      "movieTitle": "Harry Potter and the Sorcerer's Stone",
       "genre": [
         "Adventure",
         "Family",
@@ -297,7 +329,8 @@ export const movieData = {
       ],
       "releasedDate": 2001,
       "rating": 7.2,
-      "summary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+      "summary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+      "imagepath": "../assets/hpstone.png"
     },
     {
       "movieTitle": "Harry Potter and the Chamber of Secrets",
@@ -308,7 +341,8 @@ export const movieData = {
       ],
       "releasedDate": 2002,
       "rating": 7.4,
-      "summary": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed."
+      "summary": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.",
+      "imagepath": "../assets/hpcs.png"
     },
     {
       "movieTitle": "Harry Potter and the Prisoner of Azkaban",
@@ -319,7 +353,8 @@ export const movieData = {
       ],
       "releasedDate": 2004,
       "rating": 7.9,
-      "summary": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard."
+      "summary": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",
+      "imagepath": "../assets/hppoa.png"
     },
     {
       "movieTitle": "Harry Potter and the Goblet of Fire",
@@ -330,7 +365,8 @@ export const movieData = {
       ],
       "releasedDate": 2005,
       "rating": 7.7,
-      "summary": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
+      "summary": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+      "imagepath": "../assets/hpgof.png"
     },
     {
       "movieTitle": "Harry Potter and the Order of the Phoenix",
@@ -341,7 +377,8 @@ export const movieData = {
       ],
       "releasedDate": 2007,
       "rating": 7.5,
-      "summary": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+      "summary": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+      "imagepath": "../assets/hpoop.png"
     },
     {
       "movieTitle": "Harry Potter and the Half-Blood Prince",
@@ -352,7 +389,8 @@ export const movieData = {
       ],
       "releasedDate": 2009,
       "rating": 7.6,
-      "summary": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as the property of the Half-Blood Prince and begins to learn more about Lord Voldemort's dark past."
+      "summary": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as the property of the Half-Blood Prince and begins to learn more about Lord Voldemort's dark past.",
+      "imagepath": "../assets/hphbp.png"
     },
     {
       "movieTitle": "Harry Potter and the Deathly Hallows: Part 1",
@@ -363,7 +401,8 @@ export const movieData = {
       ],
       "releasedDate": 2010,
       "rating": 7.7,
-      "summary": "As Harry, Ron and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows."
+      "summary": "As Harry, Ron and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows.",
+      "imagepath": "../assets/hpdh1.png"
     },
     {
       "movieTitle": "Harry Potter and the Deathly Hallows: Part 2",
@@ -374,25 +413,27 @@ export const movieData = {
       ],
       "releasedDate": 2011,
       "rating": 8.1,
-      "summary": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+      "summary": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+      "imagepath": "../assets/hpdh2.png"
     },
     {
       "movieTitle": "Spider-Man ",
       "genre": [],
       "releasedDate": 2004,
       "rating": 7.4,
-      "summary": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
+      "summary": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
+      "imagepath": "../assets/spiderman.png"
     },
     {
-      "movieTitle": "Aliens",
+      "movieTitle": "Snatch",
       "genre": [
-        "Action",
-        "Drama",
-        "Sci-Fi"
+        "Crime",
+        "Comedy"
       ],
-      "releasedDate": 2007,
-      "rating": 6.3,
-      "summary": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge."
+      "releasedDate": 2000,
+      "rating": 8.2,
+      "summary": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
+      "imagepath": "../assets/snatch.png"
     },
     {
       "movieTitle": "Avengers Assemble",
@@ -402,7 +443,8 @@ export const movieData = {
       ],
       "releasedDate": 2012,
       "rating": 8.0,
-      "summary": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+      "summary": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "imagepath": "../assets/AA.png"
     },
     {
       "movieTitle": "Avengers: Age of Ultron",
@@ -413,7 +455,8 @@ export const movieData = {
       ],
       "releasedDate": 2015,
       "rating": 7.3,
-      "summary": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan."
+      "summary": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+      "imagepath": "../assets/AAOU.png"
     },
     {
       "movieTitle": "Avengers: Endgame",
@@ -424,7 +467,8 @@ export const movieData = {
       ],
       "releasedDate": 2019,
       "rating": 8.4,
-      "summary": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+      "summary": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "imagepath": "../assets/endgame.png"
     },
     {
       "movieTitle": "Avengers: Infinity War",
@@ -435,7 +479,8 @@ export const movieData = {
       ],
       "releasedDate": 2018,
       "rating": 8.4,
-      "summary": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+      "summary": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+      "imagepath": "../assets/infnitywar.png"
     },
     {
       "movieTitle": "Django Unchained",
@@ -445,7 +490,8 @@ export const movieData = {
       ],
       "releasedDate": 2012,
       "rating": 8.4,
-      "summary": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi."
+      "summary": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
+      "imagepath": "../assets/jango.png"
     },
     {
       "movieTitle": "The Dark Knight Rises",
@@ -456,7 +502,8 @@ export const movieData = {
       ],
       "releasedDate": 2012,
       "rating": 8.4,
-      "summary": "Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane."
+      "summary": "Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.",
+      "imagepath": "../assets/darkknightrises.png"
     },
     {
       "movieTitle": "How to Train Your Dragon",
@@ -467,7 +514,8 @@ export const movieData = {
       ],
       "releasedDate": 2010,
       "rating": 8.1,
-      "summary": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
+      "summary": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+      "imagepath": "../assets/httad.png"
     },
     {
       "movieTitle": "Batman Begins",
@@ -478,7 +526,8 @@ export const movieData = {
       ],
       "releasedDate": 2005,
       "rating": 8.2,
-      "summary": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
+      "summary": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+      "imagepath": "../assets/batmanbegins.png"
     },
     {
       "movieTitle": "The Lord of the Rings: The Fellowship of the Ring",
@@ -489,7 +538,8 @@ export const movieData = {
       ],
       "releasedDate": "2001",
       "rating": 8.8,
-      "summary": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+      "summary": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "imagepath": "../assets/lotrfellow.png"
     },
     {
       "movieTitle": "The Lord of the Rings: The Two Towers",
@@ -500,7 +550,8 @@ export const movieData = {
       ],
       "releasedDate": 2002,
       "rating": 8.8,
-      "summary": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+      "summary": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "imagepath": "../assets/lotrtwintower.png"
     },
     {
       "movieTitle": "The Lord of the Rings: The Return of the King",
@@ -511,7 +562,8 @@ export const movieData = {
       ],
       "releasedDate": 2003,
       "rating": 9.0,
-      "summary": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+      "summary": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "imagepath": "../assets/lotr3.png"
     },
     {
       "movieTitle": "Pirates of the Caribbean: The Curse of the Black Pearl",
@@ -522,7 +574,8 @@ export const movieData = {
       ],
       "releasedDate": 2003,
       "rating": 8.1,
-      "summary": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+      "summary": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+      "imagepath": "../assets/pirates1.png"
     },
     {
       "movieTitle": "Pirates of the Caribbean: Dead Man's Chest",
@@ -533,7 +586,8 @@ export const movieData = {
       ],
       "releasedDate": 2006,
       "rating": 7.3,
-      "summary": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
+      "summary": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+      "imagepath": "../assets/pirates2.png"
     },
     {
       "movieTitle": "Pirates of the Caribbean: At World's End",
@@ -544,7 +598,8 @@ export const movieData = {
       ],
       "releasedDate": 2007,
       "rating": 7.1,
-      "summary": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
+      "summary": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+      "imagepath": "../assets/pirates3.png"
     },
     {
       "movieTitle": "Pirates of the Caribbean: On Stranger Tides",
@@ -555,10 +610,11 @@ export const movieData = {
       ],
       "releasedDate": 2011,
       "rating": 6.6,
-      "summary": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too."
+      "summary": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+      "imagepath": "../assets/pirates4.png"
     },
     {
-      "movieTitle": "Pirates of the Caribbean: Salazar's Revenge",
+      "movieTitle": "Pirates of the Caribbean: Dead Men Tell No Tales ",
       "genre": [
         "Action",
         "Adventure",
@@ -566,7 +622,8 @@ export const movieData = {
       ],
       "releasedDate": 2017,
       "rating": 6.5,
-      "summary": "Captain Jack Sparrow is pursued by old rival Captain Salazar and a crew of deadly ghosts who have escaped from the Devil's Triangle. They're determined to kill every pirate at sea...notably Jack."
+      "summary": "Captain Jack Sparrow is pursued by old rival Captain Salazar and a crew of deadly ghosts who have escaped from the Devil's Triangle. They're determined to kill every pirate at sea...notably Jack.",
+      "imagepath": "../assets/pirates5.png"
     },
     {
       "movieTitle": "Scarface",
@@ -576,7 +633,8 @@ export const movieData = {
       ],
       "releasedDate": 1983,
       "rating": 8.3,
-      "summary": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed."
+      "summary": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
+      "imagepath": "../assets/scarface.png"
     }
   ]
 }

@@ -5,7 +5,7 @@ import movies, { movieData } from "../data/movies"
 const MoviesPage = () => {
 
 
-  const [filter, setFilter] = useState({})
+  // const [filter, setFilter] = useState({})
 
 
 
@@ -29,7 +29,7 @@ const MoviesPage = () => {
             <>
               <div className='movie-card'>
                 <div className='movie-picture'>
-                  <img src={info.img}></img>
+                  <img src={info.imagepath} className='poster-img' ></img>
                 </div>
                 <div className='movie-name'>
                   {info.movieTitle}
