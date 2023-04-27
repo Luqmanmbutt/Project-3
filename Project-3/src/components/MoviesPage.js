@@ -13,7 +13,7 @@ const [searchFilterArray, setSearchFilterArray] = useState([])
    */
   const searchOnChange = (event) => {
     const filteredArray = movieData.movies.filter( name => {
-      return name.genre.toLowerCase().includes(event.target.value)
+      return name.movieTitle.toLowerCase().includes(event.target.value)
     })
 
     setSearchFilterArray(filteredArray)
