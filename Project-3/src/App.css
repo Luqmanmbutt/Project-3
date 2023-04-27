@@ -4,15 +4,16 @@
 body {
   background-color:  rgb(21, 4, 49);;
 }
+
 * {  
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
-
 }
 
 h2 {
@@ -21,50 +22,44 @@ h2 {
   left: 166px;
   color: #fff;
 }
+
 h4 {
   position: relative;
   left: 65px;
   color: #ffffff52;
 }
+
 .home-page {
-  
-  border: 2px solid black;
   width: 100%;
-  background-color:rgb(21, 4, 49);
+  background-color:rgb(112, 35, 156);
   height: 870px;
   display: flex;
   flex-direction: column;
 }
-.movies-page {
 
-  border: 2px solid black;
+.movies-page {
   width: 99.7%;
-  background-color: rgb(21, 4, 49);
+  background-color: rgb(112, 35, 156);
   height: 870px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 35px;
-  margin-bottom: 20px;
 }
 
-
-
 .nav-bar {
-
-  border: 2px solid black;
+  border: 5px solid black;
   flex-direction: row;
   width: 100%;
   height: 100px;
   display: flex;
   height: fit-content;
   display: inline-flex;
-  background-color:rgb(36, 11, 75);
+  background-color:rgb(21, 4, 49);;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);  
   align-items: center;
-
 }
 
 input[type=text] {
@@ -76,7 +71,6 @@ input[type=text] {
 }
 
 .register {
-  border: 2px solid black;
   width: 100%;
   height: 51vw;
   display: flex;
@@ -85,8 +79,8 @@ input[type=text] {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 .main-container{
   width: 30vw;
   height: 41vh;
@@ -94,9 +88,8 @@ input[type=text] {
   flex-direction: column;
   justify-content: space-evenly;
   margin-right: 30px;
-
-
 }
+
 .submit-btn {
   width: -1vh;
   height: 50px;
@@ -105,11 +98,11 @@ input[type=text] {
   letter-spacing: 1px;
   border: 5px solid #5e5e5e;
   background: #fff;
-  color: rgb(36, 11, 75);
+  color: rgb(62, 6, 152);
   border-radius: 40px;
   cursor: pointer;
-  
 }
+
 .search-bar {
   width: 35%;
   height: 60px;
@@ -117,31 +110,27 @@ input[type=text] {
   left: 500px;
   bottom: -4px;
 }
+
 .home-btn,.movies-btn,.register-btn {
   font-size: 50px;
   font-family: 'Bebas Neue', cursive;
-  /* border: 2px solid black; */
   width: 65vh;
   position: relative;
   left: 10vh;
   cursor: pointer;
   color: rgb(255, 255, 255);
-
 }
 
-
 .home-display {
-  border: 2px solid black;
   width: 100%;
   height: 94vh;
   display: flex;
   background-image: url(../public/assets/home-display.png);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 .H-O-M-btn {
-  /* border: 2px solid black; */
   font-size: 85px;
   font-family: 'Vina Sans', cursive;
   position: relative;
@@ -149,43 +138,30 @@ input[type=text] {
   bottom: -260px ;
   height: 100px;
   cursor: pointer;
-
-}
-
-.middle-title {
-  border: 2px solid black;
-
 }
 
 .card-container {
-
-  border: 2px solid black;
   height: 613px;
   width: 99.7%;
   margin-top: 170px;
-  
-
-
 }
 
 .movie-card {
-
-  border: 2px solid black;
+  width: 284px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  color: rgba(0, 0, 0, 0.656);
   width: 15%;
   height: 500px;
-  color: #fff;
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  
-
 }
 
 .movie-picture {
-  border: 2px solid black;
   height: 340px;
   width: 100%;
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(28, 7, 113, 0);
 }
 .poster-img {
   width: 100%;
@@ -194,28 +170,38 @@ input[type=text] {
   justify-content: center;
 }
 .movie-summary {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
   border: 2px solid black;
   height: 75px;
   width: 100%;
   font-size: 10px;
 }
 .movie-genre{
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
   border: 2px solid black;
   height: 25px;
   width: 100%;
 
 }
 .movie-name {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
   border: 2px solid black;
   height: 43px;
   width: 100%;
 }
 .movie-year {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
   border: 2px solid black;
   height: 25px;
   width: 100%;
 }
 .movie-rating {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
   border: 2px solid black;
   height: 25px;
   width: 100%;
