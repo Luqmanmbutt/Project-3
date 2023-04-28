@@ -1,8 +1,6 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom"
 
-
-
 const NavBar = () => {
 
   const navigate = useNavigate();
@@ -19,7 +17,6 @@ const NavBar = () => {
     navigate("form")
   }
 
-
   return (
     <div className='nav-bar'>
       <div className='home-btn' onClick={home}>
@@ -34,11 +31,5 @@ const NavBar = () => {
     </div>
   );
 }
-
-
-
-
-
-
 
 export default NavBar;

@@ -1,15 +1,10 @@
 import React, { useState } from 'react'
 import movies, { movieData } from "../data/movies"
-import { useParams } from 'react-router-dom';
-
-
 
 const MoviesPage = () => {
 
-const { obj } = useParams()
 const [searchFilterArray, setSearchFilterArray] = useState([])
 
-console.log("obj", obj)
   /**
    * search on change filters through movies array and retruns the name of the movie title against the keys users are putting in the input 
    * @param {*} event is the key press in the input
@@ -21,7 +16,6 @@ console.log("obj", obj)
 
     setSearchFilterArray(filteredArray)
   }
-
 
   return (
 
